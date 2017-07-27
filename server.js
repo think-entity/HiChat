@@ -29,7 +29,7 @@ io.sockets.on('connection', function(socket) {
         if (socket.nickname != null) {
             //users.splice(socket.userIndex, 1);
             users.splice(users.indexOf(socket.nickname), 1);
-            socket.broadcast.emit('系统提示：', socket.nickname, users.length, 'logout');
+            socket.broadcast.emit('system', socket.nickname, users.length, 'logout');
         }
     });
     //new message get

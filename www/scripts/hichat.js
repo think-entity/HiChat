@@ -1,9 +1,9 @@
 /*
- *hichat v0.4.2
- *Wayou Mar 28,2014
+ *hichat v1.4.2
+ *think-enity Mar 28,2017
  *MIT license
- *view on GitHub:https://github.com/wayou/HiChat
- *see it in action:http://hichat.herokuapp.com/
+ *view on GitHub:https://github.com/think-entity/HiChat
+ *see it in action:http://hichat.xiazj.com/
  */
 window.onload = function() {
     var hichat = new HiChat();
