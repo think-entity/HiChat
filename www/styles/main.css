@@ -5,7 +5,7 @@ html, body {
 }
 .wrapper {
     width: 420px;
-    height: 540px;
+    height: 520px;
     padding: 5px;
     margin: 0 auto;
     background-color: #ddd;
@@ -73,8 +73,8 @@ html, body {
 /*end custom file input*/
 
 #messageInput {
-    width: 380px;
-    max-width: 420px;
+    width: 360px;
+    max-width: 360px;
     height: 90px;
     max-height: 90px;
     float:left;
