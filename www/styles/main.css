@@ -4,7 +4,7 @@ html, body {
     font-family: sans-serif;
 }
 .wrapper {
-    width: 400px;
+    width: 420px;
     height: 540px;
     padding: 5px;
     margin: 0 auto;
@@ -73,20 +73,20 @@ html, body {
 /*end custom file input*/
 
 #messageInput {
-    width: 440px;
-    max-width: 440px;
+    width: 380px;
+    max-width: 420px;
     height: 90px;
     max-height: 90px;
     float:left;
 }
 #sendBtn {
-    width: 50px;
+    width: 40px;
     height: 96px;
     float: right;
 }
 #emojiWrapper {
     display: none;
-    width: 500px;
+    width: 400px;
     bottom: 105px;
     position: absolute;
     background-color: #aaa;
