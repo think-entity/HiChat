@@ -17,12 +17,12 @@ HiChat.prototype = {
         var that = this;
         this.socket = io.connect();
         this.socket.on('connect', function() {
-            document.getElementById('info').textContent = 'get yourself a nickname :)';
+            document.getElementById('info').textContent = '请输入你的昵称 :';
             document.getElementById('nickWrapper').style.display = 'block';
             document.getElementById('nicknameInput').focus();
         });
         this.socket.on('nickExisted', function() {
-            document.getElementById('info').textContent = '!nickname is taken, choose another pls';
+            document.getElementById('info').textContent = '不好意思昵称已被占用，请重新选一个！';
         });
         this.socket.on('loginSuccess', function() {
             document.title = 'hichat | ' + document.getElementById('nicknameInput').value;
