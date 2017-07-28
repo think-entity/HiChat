@@ -31,10 +31,10 @@ HiChat.prototype = {
         });
         this.socket.on('error', function(err) {
             if (document.getElementById('loginWrapper').style.display == 'none') {
-																																																																																																			                document.getElementById('status').textContent = '!fail to connect :(';
-																																																																																																			            } else {
-																																																																																																			                document.getElementById('info').textContent = '!fail to connect :(';
-																																																																																																			            }
+                document.getElementById('status').textContent = '!fail to connect :(';
+            } else {
+                document.getElementById('info').textContent = '!fail to connect :(';
+            }
         });
         this.socket.on('system', function(nickName, userCount, type) {
             var msg = nickName + (type == 'login' ? ' joined' : ' left');
